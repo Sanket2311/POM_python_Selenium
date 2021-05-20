@@ -19,8 +19,8 @@ class LoginTest(unittest.TestCase):
         driver.get("https://www.facebook.com/")
 
         login = loginPage.LoginPage(driver)
-        login.enter_username("sanket.skp@gmail.com")
-        login.enter_password("sanketdcool")
+        login.enter_username("sa****.***@gmail.com")
+        login.enter_password("***")
         login.click_login()
 
         time.sleep(10)
